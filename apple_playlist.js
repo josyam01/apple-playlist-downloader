@@ -5,7 +5,7 @@ const htmlEntities = require("html-entities");
 module.exports.getPlaylist = async () => {
   let playlistObj = {};
   let url =
-    "https://music.apple.com/fi/playlist/one-direction-essentials/pl.134ef3b46d32414e9b4b5a995a2f3ea7"; //put your playlist url
+    "https://music.apple.com/co/playlist/playlist-de-josyam01/pl.u-d2b05dXtLR29pK0?ls"; //put your playlist url
 
   console.log("Playlist URL: ", url);
   const response = await axios.get(url);
